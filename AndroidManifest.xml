@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="csee.usf.edu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="csee.usf.edu.SplashActivty"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="csee.usf.edu.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="csee.usf.edu.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="csee.usf.edu.SearchActivity"
+            android:label="@string/title_activity_search"
+            android:parentActivityName="csee.usf.edu.HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="csee.usf.edu.HomeActivity" />
+        </activity>
+        <activity
+            android:name="csee.usf.edu.DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:parentActivityName="csee.usf.edu.HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="csee.usf.edu.HomeActivity" />
+        </activity>
+        <activity
+            android:name="csee.usf.edu.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="csee.usf.edu.HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="csee.usf.edu.HomeActivity" />
+        </activity>
+        <activity
+            android:name="csee.usf.edu.SignUp"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name="csee.usf.edu.FavoritesActivity"
+            android:label="@string/title_activity_favorites"
+            android:parentActivityName="csee.usf.edu.HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="csee.usf.edu.HomeActivity" />
+        </activity>
+        <activity
+            android:name="csee.usf.edu.RateNowActivity"
+            android:label="@string/title_activity_rate_now" >
+        </activity>
+    </application>
+
+</manifest>

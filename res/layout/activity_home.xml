@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <ListView
+        android:id="@+id/bussinessListView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="3" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+<Button
+    android:id="@+id/search_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/search_upper"
+    android:background="@color/green"
+    android:textColor="@color/white" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/favorites_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/favorites_upper"
+        android:layout_weight="1"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"  />
+
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_upper"
+        android:layout_weight="1"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/activity_vertical_margin" 
+        android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+</LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

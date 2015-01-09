@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iAmbiance</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="favorites_upper">FAVORITES</string>
+    <string name="settings_upper">SETTINGS</string>
+    <string name="search_upper">SEARCH</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="find"><b>Find</b></string>
+    <string name="search_hint">name, category, etc.</string>
+    <string name="title_activity_detail">Detail</string>
+    <string name="label_temperature">Temperature</string>
+    <string name="label_humidity">Humidity</string>
+    <string name="label_pressure">Pressure</string>
+    <string name="label_illuminance">Light Intensity</string>
+    <string name="label_carbon_monoxide">Carbon Monoxide</string>
+    <string name="businessImage">business image</string>
+
+    <color name="green">#70BD4E</color>
+    <color name="blue">#7183F2</color>
+    <color name="red">#F54B4B</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_favorites">FavoritesActivity</string>
+    <string name="title_activity_rate_now">RateNowActivity</string>
+
+</resources>
