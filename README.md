@@ -15,3 +15,5 @@ Database integration => Shawn
 The application is called iAmbiance and the purpose is to gather environmental information about various locations such as restaurants.  This environmental information is then uploaded to a social networking site.  
 
 Key takeaway is the integration of an external environmental sensor. This project is simply a proof of concept.  These type of sensors could be used for many different applications such as chemical spills, terrorist attacks, etc. 
+
+Please see the *.pdf and *.jpg files for a presentation overview of the project. 
